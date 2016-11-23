@@ -2,5 +2,8 @@
 
  li{
    display: inline-block;
-    list-style-type: none;   
- }
+   }
+li a{
+  list-style-type: none;
+  text-decoration: none;
+}
