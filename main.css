@@ -10,19 +10,25 @@
    border-style: solid;
    line-height: 100px;
    border-right: 0;
+   text-decoration: none;
    }
-li a{
+a li h3{
   list-style-type: none;
   text-decoration: none;
   padding: 8px;
   text-align: center;
+  color: orange;
   font-size: 30px;
 }
-li a:hover {
+a li h3:hover {
   text-decoration: none;
+  color: orange;
+}
+a:hover{
+	text-decoration: none;
 }
 
-#lastlink a{
+a #lastlink h3{
 	color: white;
 }
 
@@ -30,3 +36,20 @@ li a:hover {
 	background-color: darkred;
 	color: white;
 	}
+a #lastlink h3:hover{
+text-decoration:none;
+}
+.take{
+	background-image: url("assets/images/prot.jpg");
+	background-size: cover;
+	height: 400px;
+}
+.take h1{
+	color:white;
+	position: relative;
+	top: 70px;
+}
+#takebutton{
+	position: relative;
+	top: 90px;
+}
