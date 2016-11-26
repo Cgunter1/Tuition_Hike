@@ -21,9 +21,8 @@ a li h3{
   color: orange;
   font-size: 30px;
 }
-.row-bottom-margin { 
-	margin-bottom: -30px; 
-}
+
+
 
 a li h3:hover {
   text-decoration: none;
@@ -54,21 +53,27 @@ text-decoration:none;
 }
 .message{
 	position: relative;
-	left: 100px;
+	width: 600px;
+	height: 400px;
+	
 }
 .take h1{
 	color:white;
 	position: relative;
-	top: 70px;
+	width: 600px;
+
 }
 .takebutton{
-	position: relative;
-	top: 90px;
 	width: 200px;
 	height: 70px;
 	text-align: center;
 	line-height: 70px;
 }
 .take a:hover{
-	text-decoration: none
+	text-decoration:
+	 none
+}
+.memes p{
+	width: 500px;
+	height: 100px;
 }
