@@ -5,7 +5,7 @@ from django.shortcuts import redirect
 from django.template import Context
 from django.template.loader import get_template
 
-def index(request):
+def index1(request):
 	form_class = ContactForm
 
 		
@@ -42,6 +42,6 @@ def index(request):
 	            email.send()
 	            return redirect('/app/')
 
-	return render(request, "index.html", {
+	return render(request, "index1.html", {
 	'form': form_class,
 	})
