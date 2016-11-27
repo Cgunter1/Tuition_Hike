@@ -1,5 +1,7 @@
  @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
-
+*{
+font-family: "Roboto Slab";
+}
  li{
    display: inline-block;
    height: 100px;
@@ -73,7 +75,14 @@ text-decoration:none;
 	text-decoration:
 	 none
 }
-.memes p{
-	width: 500px;
-	height: 100px;
+
+.cards p{
+	border: 1px solid #ccc;
+	padding: 5px 5px 5px 5px;
+	width: 400px;
+	height: 320px;
+
+}
+h2{
+	text-align: center;
 }
