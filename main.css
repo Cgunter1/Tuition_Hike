@@ -5,16 +5,10 @@ font-family: "Roboto Slab";
  li{
    display: inline-block;
    height: 100px;
-   border-right: .2px;
-   border-top: 0;
-   border-bottom: 0;
-   border-color: lightgrey;
-   border-style: solid;
    line-height: 100px;
-   border-right: 0;
    text-decoration: none;
    }
- 
+
 a li h3{
   list-style-type: none;
   text-decoration: none;
@@ -57,7 +51,7 @@ text-decoration:none;
 	position: relative;
 	width: 600px;
 	height: 400px;
-	
+
 }
 .take h1{
 	color:white;
