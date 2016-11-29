@@ -1,0 +1,82 @@
+ @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+*{
+font-family: "Roboto Slab";
+}
+ li{
+   display: inline-block;
+   height: 100px;
+   line-height: 100px;
+   text-decoration: none;
+   }
+
+a li h3{
+  list-style-type: none;
+  text-decoration: none;
+  padding: 8px;
+  text-align: center;
+  color: orange;
+  font-size: 30px;
+}
+
+
+
+a li h3:hover {
+  text-decoration: none;
+  color: orange;
+}
+a:hover{
+	text-decoration: none;
+}
+
+a .lastlink h3{
+	color: white;
+}
+
+.lastlink{
+	background-color: darkred;
+	color: white;
+	}
+
+a .lastlink h3:hover{
+text-decoration:none;
+}
+
+.take{
+	background-image: url("assets/images/prot.jpg");
+	background-size: cover;
+	height: 400px;
+
+}
+.message{
+	position: relative;
+	width: 600px;
+	height: 400px;
+
+}
+.take h1{
+	color:white;
+	position: relative;
+	width: 600px;
+
+}
+.takebutton{
+	width: 200px;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+}
+.take a:hover{
+	text-decoration:
+	 none
+}
+
+.cards p{
+	border: 1px solid #ccc;
+	padding: 5px 5px 5px 5px;
+	width: 400px;
+	height: 320px;
+
+}
+h2{
+	text-align: center;
+}
