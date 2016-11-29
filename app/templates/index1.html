@@ -115,7 +115,7 @@
     </div>
     <div class="col-md-4 cards">
       <p class="Para">
-        Our plan with this website is pretty simple. On the bottom of the page is a form that asks you to state your name, email, and info. For the Info box, the purpose of that box is because everyone is affected by this tuition hike in some way; these facts can no way cover the broad number of reasons people are affected by this. The information page is a way for us to get across your struggles to the provots of the colleges, the Trustees of UCSC, and Mr. Blumenthal. The information after a certain amount of (valid) entries will be rounded up and sent to these people's emails previously discussed above at the student's own discretion. We thank you for your willingness to give your voice for a cause that will help all UCSC students from now to future classes. 
+        Our plan with this website is pretty simple. On the bottom of the page is a form that asks you to state your name, email, and info. For the Info box, the purpose of that box is because everyone is affected by this tuition hike in some way; these facts can no way cover the broad number of reasons people are affected by this. The information page is a way for us to get across your struggles to the provots of the colleges, the Trustees of UCSC, and Mr. Blumenthal. The information after a certain amount of (valid) entries will be rounded up and sent to these people's emails previously discussed above at the student's own discretion. Our main goal with this project is to  We thank you for your willingness to give your voice for a cause that will help all UCSC students from now to future classes. 
       </p>
     </div>
     <div class="col-md-4 cards">
@@ -126,15 +126,15 @@
   <footer id="footer">
   <section>
   <br>
-    <h2>Take Action</h2>
-    <h3>Add your name, email, and story to our petiton:</h3>
+    <h2 style="color:white;">Take Action</h2>
+    <h3 style="color: white;">Add your name, email, and story to our petiton:</h3>
     {% block content %}
-    <h1>Contact</h1>
-    <form role="form" action="" method="post">
+    <h1 style="color:white;">Contact</h1>
+    <form role="form" action="" method="post" style="color:white;">
       {% csrf_token %}
       {{ form.as_p }}
       <div id="button">
-      <button type="submit">Submit</button>
+      <button type="submit" style="color:black;">Submit</button>
       </div>
     </p>
     </form>
