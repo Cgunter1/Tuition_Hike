@@ -39,8 +39,9 @@ a .lastlink h3:hover{
 text-decoration:none;
 }
 
+/*static/assets/images/prot.jpg*/
 .take{
-	background: url("static/assets/images/prot.jpg");
+	background: url("{{ STATIC_URL }}/assets/images/prot.jpg");
 	background-size: cover;
 	height: 400px;
 
@@ -70,4 +71,14 @@ text-decoration:none;
 
 h2{
 	text-align: center;
+}
+
+.Para{
+	background-color: #eff0f2;
+	background-blend-mode: soft-light;
+	border-radius: 10px;
+}
+
+footer {
+	background-color: #d8d827;
 }
