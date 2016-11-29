@@ -36,7 +36,7 @@ a .lastlink h3{
 	}
 
 a .lastlink h3:hover{
-text-decoration:none;
+	text-decoration:none;
 }
 
 /*static/assets/images/prot.jpg*/
@@ -80,5 +80,14 @@ h2{
 }
 
 footer {
-	background-color: #d8d827;
+	background-color: darkred;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+a .lastlink:hover {
+	color: orange;
 }
