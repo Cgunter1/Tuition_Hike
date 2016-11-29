@@ -77,6 +77,8 @@ h2{
 	background-color: #eff0f2;
 	background-blend-mode: soft-light;
 	border-radius: 10px;
+	line-height: 40px;
+	font-size: 23px;
 }
 
 footer {
