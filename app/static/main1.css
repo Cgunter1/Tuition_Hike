@@ -1,0 +1,94 @@
+ @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+*{
+font-family: "Roboto Slab";
+}
+ li{
+   display: inline-block;
+   height: 100px;
+   line-height: 100px;
+   text-decoration: none;
+   }
+
+a li h3{
+  list-style-type: none;
+  text-decoration: none;
+  padding: 8px;
+  text-align: center;
+  color: orange;
+  font-size: 30px;
+}
+
+a li h3:hover {
+  text-decoration: none;
+  color: orange;
+}
+a:hover{
+	text-decoration: none;
+}
+
+a .lastlink h3{
+	color: white;
+}
+
+.lastlink{
+	background-color: darkred;
+	color: white;
+	}
+
+a .lastlink h3:hover{
+	text-decoration:none;
+}
+
+/*static/assets/images/prot.jpg*/
+.take{
+	background: url("{{ STATIC_URL }}/assets/images/prot.jpg");
+	background-size: cover;
+	height: 400px;
+
+}
+.message{
+	position: relative;
+	width: 600px;
+	height: 400px;
+
+}
+.take h1{
+	color:white;
+	position: relative;
+	width: 600px;
+
+}
+.takebutton{
+	width: 200px;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+}
+.take a:hover{
+	text-decoration: none;
+}
+
+h2{
+	text-align: center;
+}
+
+.Para{
+	background-color: #eff0f2;
+	background-blend-mode: soft-light;
+	border-radius: 10px;
+	line-height: 40px;
+	font-size: 23px;
+}
+
+footer {
+	background-color: darkred;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+a .lastlink:hover {
+	color: orange;
+}
